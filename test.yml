@@ -5,4 +5,5 @@ project_type: ios
 workflows:
   primary:
     steps:
-    - xcode-archive@4.7.0: {}
+    - git::https://github.com/bitrise-steplib/steps-xcode-archive.git@CI-404: {}
+    - deploy-to-bitrise-io@2: {}
