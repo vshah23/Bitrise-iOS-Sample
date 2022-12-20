@@ -10,10 +10,7 @@ workflows:
       Next steps:
       - Check out [Getting started with iOS apps](https://devcenter.bitrise.io/en/getting-started/getting-started-with-ios-apps.html).
     steps:
-      - bitrise-run:
-          inputs:
-          - workflow_id: primary
-          - bitrise_config_path: "./test.yml"
+      - path::/Users/vikas/Documents/Go Projects/steps/swiftlint: {}
 meta:
   bitrise.io:
     stack: osx-xcode-14.1.x
