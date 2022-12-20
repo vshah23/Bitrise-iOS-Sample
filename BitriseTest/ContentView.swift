@@ -18,6 +18,4 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
- 
-    var Abcd: Int64 = 0
 }
